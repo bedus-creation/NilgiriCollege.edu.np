@@ -1,0 +1,28 @@
+#inner-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.welcome-inner{
+    padding: 80px;
+    font-size: 150%;
+    
+}
+.welcome-inner i{
+    font-size: 220%;
+    color: #ffc908;
+}
+@media screen and (max-width:768px){
+    .content{
+        margin-top: 250px
+    }
+    .welcome-inner{
+        font-size: 130%;
+        padding: 40px 10px;
+        text-align: justify;
+    }
+    .welcome-inner i{
+    font-size: 150%;
+    color: #ffc908;
+    }
+    
+}

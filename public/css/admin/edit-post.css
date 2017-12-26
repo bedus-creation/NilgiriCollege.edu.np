@@ -1,0 +1,25 @@
+
+.content {
+    text-transform: none;
+}
+.content-inner {
+    width: 1200px;
+    margin: 0 auto;
+}
+.operation{
+    float: left;
+    width: 80%
+}
+.action-menu {
+    background-color:#2b3a59;
+    width: 20%;
+    float: left;
+    text-align: center;
+}
+.action-menu i{
+    font-size: 550%;
+}
+.action-menu p{
+    text-align: center;
+    color: #fff;
+}

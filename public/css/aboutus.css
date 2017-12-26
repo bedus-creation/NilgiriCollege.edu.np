@@ -1,0 +1,154 @@
+.content-inner{
+    width: 1200px;
+    margin: 0 auto;
+}
+.content-head{
+    width: 100%;
+    height: auto;
+    font-size: 220%;    
+    background-color: #F0F0F0;
+    background-color:#405580;
+}
+h1{   
+    background-color: darkorange;
+    text-align: left;
+    color: #23527c;
+    padding: 2px 20px;
+    width: 200px;
+}
+h2 {
+    background-color: darkorange;
+    text-align: left;
+    color: #23527c;
+    padding: 2px 20px;
+    width: 500px;
+}
+.faculty-head{
+    background-color: darkorange;
+    text-align: left;
+    color: #23527c;
+    padding: 2px 20px;
+    width: 300px;
+}
+.content-left{
+    float: left;
+    width: 70%
+}
+.content-right{
+    margin-left: 5px;
+    float: left;
+    width: 28%;
+}
+.image{
+    float: left;
+    width: 30%;
+}
+.image > img {
+    max-width: 250px;
+}
+.message{
+    float: left;
+    width: 70%;
+}
+.message-1{
+    float: left;
+}
+.image-1{
+
+}
+.image-1 > img {
+    max-width: 800px;
+}
+.message-head {
+    color: darkorange;
+    font-size: 90%;
+    text-decoration: underline;
+    text-align: center;
+}
+.objective ul,.silent-features ul{
+    padding: 20px 40px;
+    list-style-type: circle;
+}
+.objective li, .silent-features li{
+    text-align: left;
+    font-size: 150%;
+}
+th{
+    text-align: center;
+}
+
+
+/* for notice */
+
+.post-inner{
+    padding: 5px;
+}
+.post-inner >img {
+    max-width: 300px;
+}
+.post-title a {
+    font-size: 180%;
+}
+.post-content{
+    font-size:130%;
+}
+
+@media screen and (max-width:768px){
+    h1{
+        font-size: 70%;
+    }
+    .content{
+        margin-top: 300px
+    }
+    .content-inner{
+        width: 98%;
+    }
+    .content-left{
+        width: 100%;
+    }
+    .image{
+        width: 100%;
+    }
+    .message{
+        width: 100%;
+    }
+    .image >img {
+        width: 100%;
+        max-height: 300px;
+    }
+    .message-head{
+        font-size: 60%;
+    }
+    .message-1 ,.message{
+        font-size: 90%;
+    }
+    .image-1 > img {
+        width: 100%;
+        height: 150px;
+    }
+    .objective ul,.silent-features ul{
+        padding: 10px 5px 10px 20px;
+    }
+    .objective li, .silent-features li{
+        font-size: 100%;
+    }
+    h2{
+        width: 100%;
+        font-size: 70%;
+    }
+    .content-right{
+        width: 100%;
+    }
+    .post{
+        width: 98%;
+    }
+    .post-inner{
+        margin: 10px 5px;
+        border: 1px solid #f0f0f0;
+        background-color: #f5e79e;
+    }
+    .post-inner >img {
+        padding: 20px 10px; 
+        max-width: 80%;
+}
+}

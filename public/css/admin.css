@@ -1,0 +1,75 @@
+.content {
+    text-transform: none;
+}
+.content-inner {
+    width: 1200px;
+    margin: 0 auto;
+}
+.content-left {
+    float: left;
+    width: 20%;
+    background-color: #2b3a59;
+    color: #fff;
+}
+.profile-image i{
+    font-size: 800%;
+}
+.profile-name{
+    margin-bottom: 50px;
+}
+.options-menu ul {
+    width: 100%;
+    list-style: none;
+}
+.options-menu li{
+    width: 100%;
+    text-align: left;
+    padding: 5px 10px 5px 40px;
+}
+
+.options-menu i{
+    font-size: 150%;
+}
+.options-menu a{
+    color: #F0F0F0;
+}
+.content-right{
+    margin-left: 1%;
+    float: left;
+    width: 79%;
+}
+.option{
+    margin: 20px;
+    float: left ;
+    width: 25%;
+    text-align: center;
+}
+.option p{
+    text-align: center;
+    color: #2b3a59;;
+}
+.option i{
+    font-size: 550%;
+}
+
+
+
+
+
+
+.operation{
+    float: left;
+    width: 80%
+}
+.action-menu {
+    background-color:#2b3a59;
+    width: 20%;
+    float: left;
+    text-align: center;
+}
+
+
+.action-menu p{
+    text-align: center;
+    color: #fff;
+}

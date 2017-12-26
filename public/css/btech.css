@@ -1,0 +1,39 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 2, 2017, 6:53:34 AM
+    Author     : root
+*/
+
+.college-enrollment{
+    width: 400px;
+}
+.content-head h3{
+    background-color: darkorange;
+    width: 200px;
+    color: #23527c;
+}
+.message-1 ul {
+    list-style-type: circle;
+    padding-left: 100px;
+}
+.message-1 li {
+    text-align: left;
+    font-size: 150%;
+}
+@media screen and (max-width:768px){
+    .college-enrollment{
+        width: 100%;
+    }
+    .message-1 ul {
+        list-style-type: circle;
+        padding-left: 40px;
+    }
+    .message-1 li {
+        text-align: left;
+        font-size: 120%;
+    }
+}
